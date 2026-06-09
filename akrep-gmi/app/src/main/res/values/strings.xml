@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AKREP GMİ - GALACTIC</string>
+    <string name="welcome">Akrep GMİ Evrenine Hoş Geldiniz</string>
+    <string name="play">Oyna</string>
+    <string name="settings">Ayarlar</string>
+    <string name="profile">Profil</string>
+    <string name="leaderboard">Liderlik Tablosu</string>
+    <string name="shop">Mağaza</string>
+    <string name="collection">Koleksiyon</string>
+</resources>
