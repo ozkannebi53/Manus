@@ -2,6 +2,10 @@ package com.akrep.gmi.galactic.game
 
 import java.util.UUID
 
+fun generateRoomCode(): String {
+    return (1000..9999).random().toString()
+}
+
 data class GameRoom(
     val roomId: String = UUID.randomUUID().toString(),
     val roomCode: String = generateRoomCode(),
@@ -115,9 +119,5 @@ class MultiplayerSystem {
         roomScores.remove(roomId)
     }
     
-    companion object {
-        fun generateRoomCode(): String {
-            return (1000..9999).random().toString()
-        }
-    }
+    companion object
 }

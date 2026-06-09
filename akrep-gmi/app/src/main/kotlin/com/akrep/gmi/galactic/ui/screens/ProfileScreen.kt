@@ -100,7 +100,7 @@ fun ProfileScreen() {
             }
         }
         
-        Spacer(modifier = Modifier.weight(1f))
+        Spacer(modifier = Modifier.height(24.dp))
         
         // Çıkış Butonu
         Button(
@@ -132,7 +132,7 @@ fun StatisticRow(label: String, value: String) {
 fun CurrencyBox(emoji: String, amount: String, label: String) {
     Column(
         modifier = Modifier
-            .weight(1f)
+            .fillMaxWidth(0.33f)
             .background(Color(0xFF2A2E4F), shape = RoundedCornerShape(8.dp))
             .padding(8.dp),
         horizontalAlignment = Alignment.CenterHorizontally
