@@ -8,9 +8,14 @@ import com.google.firebase.firestore.firestore
 import com.google.firebase.messaging.FirebaseMessaging
 
 object FirebaseConfig {
-    val auth: FirebaseAuth by lazy { Firebase.auth }
-    val firestore: FirebaseFirestore by lazy { Firebase.firestore }
-    val messaging: FirebaseMessaging by lazy { FirebaseMessaging.getInstance() }
+    val auth: FirebaseAuth
+        get() = Firebase.auth
+    
+    val firestore: FirebaseFirestore
+        get() = Firebase.firestore
+    
+    val messaging: FirebaseMessaging
+        get() = FirebaseMessaging.getInstance()
 
     fun initializeFirebase() {
         // Firebase otomatik olarak initialize edilir
