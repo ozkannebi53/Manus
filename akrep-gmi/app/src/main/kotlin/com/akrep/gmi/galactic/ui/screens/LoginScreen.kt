@@ -85,7 +85,6 @@ fun LoginScreen(
                 value = password,
                 onValueChange = { password = it },
                 label = { Text("Şifre") },
-                type = PasswordVisualTransformation(),
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(bottom = 24.dp),

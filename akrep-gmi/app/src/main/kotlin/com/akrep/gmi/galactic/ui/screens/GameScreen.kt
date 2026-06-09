@@ -157,11 +157,7 @@ fun GalacticBackground() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(
-                brush = androidx.compose.foundation.background(
-                    color = Color(0xFF0A0E27)
-                ).brush
-            )
+            .background(Color(0xFF0A0E27))
     )
 }
 
