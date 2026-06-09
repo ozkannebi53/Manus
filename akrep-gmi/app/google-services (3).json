@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "533264632093",
+    "firebase_url": "https://akrep-gmi-galactic-64c8d-default-rtdb.firebaseio.com",
+    "project_id": "akrep-gmi-galactic-64c8d",
+    "storage_bucket": "akrep-gmi-galactic-64c8d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533264632093:android:60adfc91384dc79ad3b9f4",
+        "android_client_info": {
+          "package_name": "com.akrep.gmi.galactic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP1FwQ3Ug0dgEA0vfnpIP4UoTN46sgX_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
